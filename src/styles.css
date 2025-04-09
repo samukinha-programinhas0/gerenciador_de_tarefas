@@ -1,0 +1,83 @@
+.lista-tarefas li.concluida span {
+    text-decoration: line-through;
+    color: rgb(137, 137, 137);
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.lista-tarefas {
+    background-color: #ffffff;
+    border: 2px solid #87ceeb; 
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+.lista-tarefas h2 {
+    text-align: center;
+    color: #4682b4;
+    margin-bottom: 20px;
+}
+
+.lista-tarefas input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #87ceeb;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.lista-tarefas button {
+    background-color: #87ceeb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.lista-tarefas button:hover {
+    background-color: #4682b4;
+}
+
+.lista-tarefas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-tarefas li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.lista-tarefas li:last-child {
+    border-bottom: none;
+}
+
+.lista-tarefas li.concluida span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.lista-tarefas li span {
+    flex: 1;
+    margin-right: 10px;
+}
