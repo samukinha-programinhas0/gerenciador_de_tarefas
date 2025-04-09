@@ -27,8 +27,14 @@ Clonar o Projeto (Usando Git)
 
 "git clone https://github.com/samukinha-programinhas0/gerenciador_de_tarefas.git"
 
-  5.Entre na pasta do projeto:
+  5.Entre na pasta do projeto digitando no terminal:
 
-cd gerenciador_de_tarefas
+"cd gerenciador_de_tarefas"
+
+  6.No terminal digite:
+
+ "npm install"
+ "npm run dev"
+  
 
 
