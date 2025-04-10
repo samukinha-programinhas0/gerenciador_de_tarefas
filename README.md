@@ -36,5 +36,5 @@ Clonar o Projeto (Usando Git)
  "npm install"
  "npm run dev"
   
-
-
+video explicativo:
+https://youtu.be/Y87ljwL0bh4
